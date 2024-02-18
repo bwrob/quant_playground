@@ -4,17 +4,17 @@ repos:
   hooks:
     - id: docformatter
       name: docformatter
-      entry: poetry run docformatter --in-place -r
+      entry: poetry run docformatter --in-place -r .
       language: system
     - id: isort
       name: isort
-      entry: poetry run isort
+      entry: poetry run isort .
       language: system
     - id: black
       name: black
-      entry: poetry run black
+      entry: poetry run black .
       language: system
     - id: pylint
       name: pylint
-      entry: poetry run pylint
+      entry: poetry run pylint .
       language: system
