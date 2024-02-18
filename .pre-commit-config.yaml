@@ -6,19 +6,19 @@ repos:
       name: docformatter
       entry: poetry run docformatter --in-place -r
       language: system
-      types: [ file, python ]
+      types: [ file, python, jupyter ]
     - id: isort
       name: isort
       entry: poetry run isort
       language: system
-      types: [ file, python ]
+      types: [ file, python, jupyter ]
     - id: black
       name: black
       entry: poetry run black
       language: system
-      types: [file, python]
+      types: [file, python, jupyter ]
     - id: pylint
       name: pylint
       entry: poetry run pylint
       language: system
-      types: [ file, python ]
+      types: [ file, python, jupyter ]
