@@ -24,6 +24,9 @@ openbb = "^4.1.4"
 plotly = "^5.19.0"
 skfolio = "^0.1.2"
 tqdm = "^4.66.2"
+yfinance = "^0.2.36"
+mplfinance = "^0.12.10b0"
+stock-indicators = "^1.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
