@@ -27,6 +27,7 @@ tqdm = "^4.66.2"
 yfinance = "^0.2.36"
 mplfinance = "^0.12.10b0"
 stock-indicators = "^1.2.0"
+joypy = "^0.2.6"
 
 
 [tool.poetry.group.dev.dependencies]
