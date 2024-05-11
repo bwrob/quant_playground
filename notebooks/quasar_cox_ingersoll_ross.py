@@ -45,7 +45,7 @@ class CIRProcess:
 if __name__ == "__main__":
     cir_process = CIRProcess(
         kappa=3,
-        r_0=9,
+        r_0=3,
         sigma=0.5,
         step_size=10e-3,
         theta=3,
